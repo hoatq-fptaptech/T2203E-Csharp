@@ -9,7 +9,7 @@ public class Program
         dvt.Run();
         h.Age = 19;
         h.Email = "abc@gmail.com";
-        Console.WriteLine(h.Age);
+        //Console.WriteLine(h.Age);
 
         Student s = new Student();
         //   s.telephone[0] = "02982992929";
