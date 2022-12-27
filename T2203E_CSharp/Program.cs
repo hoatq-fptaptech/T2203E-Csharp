@@ -1,7 +1,76 @@
 ﻿using T2203E_CSharp.session1;
+using T2203E_CSharp.session3;
+using T2203E_CSharp.contact;
+using T2203E_CSharp.session4;
+
 public class Program
 {
     static void Main(string[] args)
+    {
+        StringToVoid stv = new StringToVoid(ShowMessage);
+        StringToVoid stv2 = new StringToVoid(DemoDelegate.SayHello);
+        StringToVoid stv3 = new StringToVoid(new DemoDelegate().ShowInfo);
+
+        stv += DemoDelegate.SayHello;
+        stv += new DemoDelegate().ShowInfo;
+
+        stv += stv3;
+
+        stv("Xin chao cac ban");// ShowMessage("Xin chao cac ban");
+
+        DemoEvent de = new DemoEvent();
+        de.Invoke();
+    }
+
+    static void ShowMessage(string msg)
+    {
+        Console.WriteLine(msg);
+    }
+
+    static string GetMessage(string s)
+    {
+        return "Hello: " + s;
+    }
+
+
+    static void Main4(string[] args)
+    {
+        PhoneBook pb = new PhoneBook();
+        pb.InsertPhone("Nam", "0987272727");
+        pb.InsertPhone("Minh", "0123456789");
+        pb.InsertPhone("Dung", "09192838211");
+        pb.InsertPhone("Nam", "089928291");
+        pb.InsertPhone("Nam", "0987272727");
+
+        pb.Sort();
+
+        foreach(PhoneNumber p in pb.PhoneList)
+        {
+            Console.WriteLine(p.ToString());
+        }
+    }
+
+    static void Main3(string[] args)
+    {
+        try
+        {
+            int x = 10;
+            int y = 0;
+            throw new Exception("Y Bang 0 Mat roi");
+            y++;
+            float z = x / y;
+            Console.WriteLine("z = " + z);
+        }catch(Exception e)
+        {
+            Console.WriteLine(e.Message);
+        }
+        finally
+        {
+
+        }
+    }
+
+    static void Main2(string[] args) 
     {
         Human h = new Human();
         h.Run();

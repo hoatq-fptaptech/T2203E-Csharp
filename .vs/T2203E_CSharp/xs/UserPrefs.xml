@@ -1,4 +1,33 @@
 ﻿<Properties StartupConfiguration="{A3F96F5E-7300-4444-8165-B98DB89BD0EC}|Default" GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.T2203E__CSharp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="T2203E_CSharp/Program.cs">
+    <Files>
+      <File FileName="T2203E_CSharp/session2/Student.cs" Line="16" Column="1" />
+      <File FileName="T2203E_CSharp/Program.cs" Line="20" Column="10" />
+      <File FileName="T2203E_CSharp/session3/AbstractStudent.cs" Line="7" Column="38" />
+      <File FileName="T2203E_CSharp/session3/FPTStudent.cs" Line="12" Column="13" />
+      <File FileName="T2203E_CSharp/session3/IHuman.cs" Line="7" Column="3" />
+      <File FileName="T2203E_CSharp/session3/IStudent.cs" Line="10" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="T2203E_CSharp" expanded="True">
+            <Node name="T2203E_CSharp" expanded="True">
+              <Node name="session1" expanded="True" />
+              <Node name="session2" expanded="True" />
+              <Node name="session3" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
