@@ -13,3 +13,5 @@
 /Volumes/STORAGE/Aptech/SEM 2/T2203E_CSharp/T2203E_CSharp/obj/Debug/net7.0/T2203E_CSharp.pdb
 /Volumes/STORAGE/Aptech/SEM 2/T2203E_CSharp/T2203E_CSharp/obj/Debug/net7.0/T2203E_CSharp.genruntimeconfig.cache
 /Volumes/STORAGE/Aptech/SEM 2/T2203E_CSharp/T2203E_CSharp/obj/Debug/net7.0/ref/T2203E_CSharp.dll
+/Volumes/STORAGE/Aptech/SEM 2/T2203E_CSharp/T2203E_CSharp/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Volumes/STORAGE/Aptech/SEM 2/T2203E_CSharp/T2203E_CSharp/obj/Debug/net7.0/T2203E_CSharp.csproj.CopyComplete

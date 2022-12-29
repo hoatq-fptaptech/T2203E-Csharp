@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gYSCu+uE9oOAxJ+eCit6WVX/PAQRwHrQBp9DQyBGuGqLr+lu7us7tenBPxlJcQpxXMMgfsN2s55tYJy78YsXYA==",
+  "dgSpecHash": "B+OzWcw7/lJ0Ya4q251F6MIMNZXqvyDS5lvWFpVz0OS4z4Sl0Mo8m50lObod+3No3xTLys0arItFEGWf2rH5Og==",
   "success": true,
   "projectFilePath": "/Volumes/STORAGE/Aptech/SEM 2/T2203E_CSharp/T2203E_CSharp/T2203E_CSharp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/macbook/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

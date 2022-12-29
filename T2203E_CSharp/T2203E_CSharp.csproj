@@ -13,6 +13,8 @@
     <None Remove="session3\" />
     <None Remove="contact\" />
     <None Remove="session4\" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="session5\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="session1\" />
@@ -20,5 +22,9 @@
     <Folder Include="session3\" />
     <Folder Include="contact\" />
     <Folder Include="session4\" />
+    <Folder Include="session5\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
   </ItemGroup>
 </Project>
